@@ -8,7 +8,6 @@
 
 // use if e depois if e else
 
-
 function if1() {
 
     let idade = parseInt(prompt("qual a sua idade?1"))
@@ -30,8 +29,6 @@ function if1() {
     }
 }
 
-
-
 // tarefa 2
 
 // intantil  6 a 10 anos
@@ -50,7 +47,7 @@ function if2() {
         if (idade >= 6 && idade <= 10) {
             alert("categoria infantil")
         } else
-            (idade >= 11 && idade <= 15) {
+            if(idade >= 11 && idade <= 15) {
                 alert("categoria infanto-juvenil")
             }
     if (idade >= 16 && idade <= 21) {
